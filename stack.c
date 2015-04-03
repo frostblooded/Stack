@@ -18,6 +18,8 @@ void stack_push(struct stack_t*, int value);
 int stack_pop(struct stack_t*);
 void stack_copy(struct stack_t *from, struct stack_t *to);
 
+int main(){return 0;}
+
 void stack_init(struct stack_t* s) {
 	s->size = STARTING_SIZE;
 	s->top = 0;
